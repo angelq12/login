@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:#DEDEDE;
+    display: flex;
+    min-height: 100vh;
+}
+/*Seleccionamos el formulario*/
+form{
+    margin: auto; /*para centrar el formulario*/
+    width: 50%;
+    max-width: 500px; /*para que el ancho maximo sea de 50 px*/
+    background: #F3F3F3;
+    padding: 30px;/*Establece la anchura de algunas o todas las zonas de relleno de los elementos*/
+    border: 1px solid rgba(0,0,0,0.2);/*ara nosea un negro bien oscudo sino transparente*/
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.5);
+}
+
+input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0; /*margen de 30 px asi arriba y cero a los costados*/
+    font-size: 20px;/*Establece el tamaño de letra*/
+    
+}
+
+/*Estilos al botono*/
+input[type="Submit"]{
+    
+    background:linear-gradient(#FFDA63,#FFB940);/*le doy un degradado*/
+    border: 0;/*le quito el border*/
+    color: maroon;
+    opacity: 0.8;/*opacidad*/
+    cursor:pointer;/*cambia el cursor a manita*/
+    border-radius: 20px;
+    margin-bottom: 0;
+    
+}
+
+/*cuando pase el mause*/
+input[type="submit"]:hover{
+    
+    opacity: 1;/*para una opacidad*/
+    
+}
+
+/*el instante en que se hace clic*/
+input[type="submit"]:activate{
+    transform: scale(0.95;/*cuando hago clic se reduce*/
+    
+}
+
+/*para que cuando se reduca la pantalla*/
+@media (max-width:768px){/*786 medida de una tablet*/
+    form{
+        width: 75%;
+        
+    }
+}
+/*Cuando este mas pequeño*/
+@media (max-width:480%)/*480medida de una tablet*/
+    form{
+        width: 90%;
+        
+    }
+}
+  
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
